@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
 /*
-	Massively y HTML5 UP
+	Massively by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -3276,6 +3276,16 @@ input, select, textarea {
 
 		}
 
+/* Profile Image */
+#profile-image {
+	border-radius: 50%;
+	object-fit: cover;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
 /* Intro */
 
 	#intro {
@@ -3307,6 +3317,7 @@ input, select, textarea {
 		z-index: 1;
 		min-height: 100vh;
 	}
+
 		#intro .intro-text{
 			display: flex;
 			flex-direction: column;
